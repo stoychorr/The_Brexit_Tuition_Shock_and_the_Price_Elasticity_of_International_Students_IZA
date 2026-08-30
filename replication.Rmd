@@ -88,13 +88,18 @@ knitr::include_graphics(figure_files[["figure_06"]])
 ```
 
 ```{r table-3}
- table_3
-
+emit_table(
+  table_3,
+  "Table 3. Average treatment effect and macroeconomic interactions",
+  col_names = c("", "(1)", "(2)", "(3)", "(4)", "(5)")
+)
 ```
 
 ```{r table-4}
-  table_4
+emit_table(
+  table_4,
   "Table 4. Sample compositions for the alternative control groups"
+)
 ```
 
 ```{r figure-7, fig.cap="Figure 7. Robustness of the Brexit effect across alternative control-group definitions.", out.width="100%"}
@@ -106,9 +111,10 @@ knitr::include_graphics(figure_files[["figure_08"]])
 ```
 
 ```{r table-5}
-table_5
+emit_table(
+  table_5,
   "Table 5. Per-country saturated DiD and synthetic difference-in-differences estimates"
-
+)
 ```
 
 ```{r figure-9, fig.cap="Figure 9. Country-specific loan-adjusted elasticities under the reconstructed 2021 information set.", out.width="100%"}
@@ -124,21 +130,25 @@ knitr::include_graphics(figure_files[["figure_a1"]])
 ```
 
 ```{r table-a1-a}
-
-  table_a1_panel_a
+emit_table(
+  table_a1_panel_a,
+  "Table A1. Country-specific post-reform log effects under alternative specifications, Panel A"
+)
 ```
 
 ```{r table-a1-b}
-
-  table_a1_panel_b
+emit_table(
+  table_a1_panel_b,
   "Table A1. Country-specific post-reform log effects under alternative specifications, Panel B"
+)
 ```
 
 ```{r table-a2}
-
-  table_a2
-  "Table A2. Country-specific log effects in the initial and later post-reform windows"
-
+emit_table(
+  table_a2,
+  "Table A2. Country-specific log effects in the initial and later post-reform windows",
+  col_names = table_a2_column_names
+)
 ```
 
 ```{r figure-a2, fig.cap="Figure A2. Plan 2 RPI calibration across the two repayment years.", out.width="100%"}
@@ -146,15 +156,15 @@ knitr::include_graphics(figure_files[["figure_a2"]])
 ```
 
 ```{r table-a3}
-
-  table_a3
+emit_table(
+  table_a3,
   "Table A3. Plan 2 overseas earnings thresholds in 2020-2021"
-
+)
 ```
 
 ```{r table-a4}
-
-  table_a4
+emit_table(
+  table_a4,
   "Table A4. Plan 2 overseas earnings thresholds in 2025-2026"
-
+)
 ```
