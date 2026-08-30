@@ -1,0 +1,12 @@
+order,manuscript_table,generating_script,main_input,generated_object
+1,Table 1,07_build_tables.R,All constructed analysis samples,table_1
+2,Table 2,01_construct_control_group.R,ucas_control_group_2006_2024.xlsx,table_2
+3,Table 3,04_estimate_models.R,panel_main and panel_wb,table_3
+4,Table 4,02_prepare_panels.R,ucas_main_2016_2025.xlsx,table_4
+5,Table 5,05_estimate_sdid.R,ucas_main_2016_2025.xlsx,table_5
+6,Table A1 Panel A,04_estimate_models.R,panel_main,table_a1_panel_a
+7,Table A1 Panel B,04_estimate_models.R,panel_wb,table_a1_panel_b
+8,Table A2,04_estimate_models.R,panel_main,table_a2
+9,Table A3,06_loan_calibrations.R,threshold_2021,table_a3
+10,Table A4,06_loan_calibrations.R,threshold_2025,table_a4
+

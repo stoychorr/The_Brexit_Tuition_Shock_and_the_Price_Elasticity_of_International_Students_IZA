@@ -1,0 +1,15 @@
+order,manuscript_figure,generating_script,main_input,output_file
+1,Figure 1,11_build_figures.R,panel_main and m_event,figure_01_event_study.png
+2,Figure 2,11_build_figures.R,panel_main and m_sat_event,figure_02_saturated_event_study.png
+3,Figure 3,11_build_figures.R,m_sat_DK and panel_main,figure_03_elasticity_decomposition.png
+4,Figure 4,11_build_figures.R,s1 through s4,figure_04_controlled_elasticities.png
+5,Figure 5 Panel A,11_build_figures.R,loan_2025 country coefficients and GDP,figure_05_panel_a_raw_income_gradient.png
+6,Figure 5 Panel B,11_build_figures.R,loan_2025 elasticity grid and GDP,figure_05_panel_b_loan_adjusted_income.png
+7,Figure 5 Panel C,11_build_figures.R,loan_2025 elasticity grid,figure_05_panel_c_country_discount_rates.png
+8,Figure 6,11_build_figures.R,m_sat_DK_2,figure_06_split_period_effects.png
+9,Figure 7,11_build_figures.R,pooled alternative-control models,figure_07_pooled_control_robustness.png
+10,Figure 8,11_build_figures.R,saturated alternative-control models,figure_08_saturated_control_robustness.png
+11,Figure 9,11_build_figures.R,loan_2021 elasticity grid,figure_09_2021_information_set.png
+12,Figure 10,11_build_figures.R,loan_2025 plus WDI and IGE profiles,figure_10_discount_correlations.png
+13,Figure A1,11_build_figures.R,constant-elasticity illustration,figure_a1_elasticity_geometry.png
+14,Figure A2,11_build_figures.R,2021 and 2025 RPI schedules,figure_a2_rpi_calibration.png

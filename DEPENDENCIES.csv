@@ -1,0 +1,20 @@
+package,purpose,version_note
+readxl,Read supplied Excel inputs,CRAN
+writexl,Write sequential Excel outputs,CRAN
+dplyr,Data construction,CRAN
+tidyr,Country-year matrices and table reshaping,CRAN
+Rsolnp,Constrained synthetic-control weights,CRAN
+fixest,Weighted fixed-effects models and Driscoll-Kraay standard errors,CRAN
+broom,Coefficient extraction,CRAN
+countrycode,Country-code harmonization,CRAN
+synthdid,Synthetic difference-in-differences,Audited version 0.0.9
+sandwich,HC1 covariance matrices in loan calibrations,CRAN
+lmtest,Robust coefficient tests in loan calibrations,CRAN
+knitr,Table-only master document,CRAN
+rmarkdown,Render the master document,CRAN
+ggplot2,Reproduce manuscript figures,CRAN
+stringr,Parse event-study and saturated-model coefficient names,CRAN
+purrr,Figure-data construction,CRAN
+ggrepel,Figure 8 endpoint labels,CRAN
+WDI,Live fallback when a frozen World Bank snapshot is absent,CRAN
+haven,Read the frozen intergenerational persistence data,CRAN

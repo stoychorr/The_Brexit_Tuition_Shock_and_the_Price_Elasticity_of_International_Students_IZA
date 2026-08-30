@@ -1,0 +1,25 @@
+order,type,manuscript_output,object_or_file
+1,table,Table 1,table_1
+2,table,Table 2,table_2
+3,figure,Figure 1,figure_01_event_study.png
+4,figure,Figure 2,figure_02_saturated_event_study.png
+5,figure,Figure 3,figure_03_elasticity_decomposition.png
+6,figure,Figure 4,figure_04_controlled_elasticities.png
+7,figure,Figure 5 Panel A,figure_05_panel_a_raw_income_gradient.png
+8,figure,Figure 5 Panel B,figure_05_panel_b_loan_adjusted_income.png
+9,figure,Figure 5 Panel C,figure_05_panel_c_country_discount_rates.png
+10,figure,Figure 6,figure_06_split_period_effects.png
+11,table,Table 3,table_3
+12,table,Table 4,table_4
+13,figure,Figure 7,figure_07_pooled_control_robustness.png
+14,figure,Figure 8,figure_08_saturated_control_robustness.png
+15,table,Table 5,table_5
+16,figure,Figure 9,figure_09_2021_information_set.png
+17,figure,Figure 10,figure_10_discount_correlations.png
+18,figure,Figure A1,figure_a1_elasticity_geometry.png
+19,table,Table A1 Panel A,table_a1_panel_a
+20,table,Table A1 Panel B,table_a1_panel_b
+21,table,Table A2,table_a2
+22,figure,Figure A2,figure_a2_rpi_calibration.png
+23,table,Table A3,table_a3
+24,table,Table A4,table_a4

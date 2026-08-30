@@ -1,0 +1,15 @@
+file,role,analysis_window,used_by
+data/raw/ucas_control_group_2006_2024.xlsx,UCAS edition used only to construct the control group,2014-2020,01_construct_control_group.R
+data/raw/ucas_main_2016_2025.xlsx,UCAS edition used for headline and robustness estimates,2016-2025,02_prepare_panels.R and 05_estimate_sdid.R
+data/raw/wages_2024.xlsx,Eurostat wage inputs for the later loan calibration,2024,06_loan_calibrations.R
+data/raw/wages_2021.xlsx,Eurostat wage inputs for the timing robustness calibration,2021,06_loan_calibrations.R
+data/reference/control_group_output_expected.xlsx,Independent benchmark for the donor weights,2014-2020,01_construct_control_group.R
+data/reference/panel_wb_2016_2024_audited_2026_07.xlsx,Frozen World Bank controlled panel,2016-2024,03_prepare_wdi_panel.R
+data/reference/wdi_gdp_2018_2022.csv,Frozen GDP per capita snapshot for loan-income gradients,2018-2022,06_loan_calibrations.R
+data/reference/wdi_profile_2018_2022.csv,Frozen World Bank cross-section inputs for Figure 10,2018-2022,10_prepare_figure_data.R
+data/reference/gdim_income.dta,Frozen intergenerational income persistence input,2025 release,10_prepare_figure_data.R
+data/reference/expected_table_a1_panel_a.csv,Independent baseline model benchmark,2016-2025,08_validate_results.R
+data/reference/expected_table_a1_panel_b.csv,Independent controlled model benchmark,2016-2024,08_validate_results.R
+data/reference/expected_table_a2.csv,Independent split-period benchmark,2016-2025,08_validate_results.R
+data/reference/expected_table_5.csv,Independent synthetic DiD benchmark,2016-2025,08_validate_results.R
+data/reference/expected_table_3_current_wdi.csv,Published-versus-audited WDI reconciliation,2016-2024,Manual audit reference
