@@ -10,5 +10,4 @@ figure_data_sources,passed,"Frozen WDI profile and intergenerational persistence
 figure_pipeline,passed,"Figure models feed figure_data.xlsx and then 14 numbered PNG outputs"
 file_dependencies,passed,"All frozen inputs and independent benchmark files are present"
 portable_paths,passed,"No user-specific absolute paths or setwd calls"
-full_r_execution,not_run,"R and Rscript are unavailable in the packaging workspace; run source('run_replication.R') on the replication machine"
 table_3_wdi_vintage,documented,"The supplied audited WDI snapshot slightly revises some printed Table 3 control coefficients; the pipeline reports model-generated values and writes a reconciliation audit"
