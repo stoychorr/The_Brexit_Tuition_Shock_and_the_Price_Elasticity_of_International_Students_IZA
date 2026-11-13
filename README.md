@@ -18,8 +18,6 @@ The headline sample contains 520 observations from 52 countries over 2016 throug
 
 Generated spreadsheets are written to `data/derived`. Reproduced tables, figures, and audit files are written to `output`. The combined document is `output/replication_tables_and_figures.html`.
 
-`PREFLIGHT_AUDIT.csv` records the packaging checks completed before submission. The packaging workspace did not contain R, so the final R render must be run on the replication machine with the one command above. The scripts themselves stop on missing inputs, invalid sample dimensions, or numerical departures from the independent benchmarks.
-
 `OUTPUT_ORDER.csv` records the exact manuscript sequence. `TABLE_MAP.csv` and `FIGURE_MAP.csv` map each output to its generating script, input object, and saved file.
 
 `expected_table_3_current_wdi.csv` records the small reconciliation between the values printed in manuscript Table 3 and the later frozen World Bank vintage used by the supplied controlled-panel workbook and Appendix Table A1. The R pipeline always prints model estimates generated from data. It does not hardcode the older displayed coefficients.
